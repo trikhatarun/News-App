@@ -25,7 +25,6 @@ public class Politics extends Fragment implements LoaderManager.LoaderCallbacks<
 
     private static final int BUSINESS_LOADER_ID = 1;
     public final String url = "http://content.guardianapis.com/politics?order-by=newest&api-key=7c1f0727-2bce-49e2-aa74-eb3a87f588db";
-    public final String url = "http://content.guardianapis.com/politics?order-by=newest&api-key=7c1f0727-2bce-49e2-aa74-eb3a87f588db";
     private NewsAdapter mAdapter;
     private TextView mEmptyStateTextView;
     private View rootView;
