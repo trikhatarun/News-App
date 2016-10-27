@@ -5,7 +5,7 @@ import android.preference.Preference;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity implements Preference.OnPreferenceChangeListener {
+public class MainActivity extends AppCompatActivity{
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -17,10 +17,5 @@ public class MainActivity extends AppCompatActivity implements Preference.OnPref
         CategoryAdapter categoryAdapter = new CategoryAdapter(this, getSupportFragmentManager());
 
         viewPager.setAdapter(categoryAdapter);
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object o) {
-        return false;
     }
 }
