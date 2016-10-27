@@ -1,7 +1,6 @@
 package com.example.android.newsapp;
 
 import android.os.Bundle;
-import android.preference.Preference;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
